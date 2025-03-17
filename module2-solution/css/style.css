@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Ajout d'un espace entre les éléments */
+}
+
+.box {
+    border: 1px solid black;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    width: 100%; /* Assure que chaque box occupe toute la largeur disponible */
+    max-width: 300px; /* Limite la largeur des boîtes */
+    text-align: left;
+    overflow: hidden; /* Évite que le contenu dépasse */
+}
+
+.title {
+    background-color: #FF6347;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    color: #555;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .box {
+        width: 48%; /* Sur tablettes et plus grands écrans, chaque boîte prend 48% de la largeur */
+    }
+}
+
+@media (min-width: 992px) {
+    .box {
+        width: 32%; /* Sur écrans plus larges, chaque boîte prend 32% de la largeur */
+    }
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Ajout d'un espace entre les éléments */
+}
+
+.box {
+    border: 1px solid black;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    width: 100%; /* Assure que chaque box occupe toute la largeur disponible */
+    max-width: 300px; /* Limite la largeur des boîtes */
+    text-align: left;
+    overflow: hidden; /* Évite que le contenu dépasse */
+}
+
+.title {
+    background-color: #FF6347;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    color: #555;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .box {
+        width: 48%; /* Sur tablettes et plus grands écrans, chaque boîte prend 48% de la largeur */
+    }
+}
+
+@media (min-width: 992px) {
+    .box {
+        width: 32%; /* Sur écrans plus larges, chaque boîte prend 32% de la largeur */
+    }
+}
